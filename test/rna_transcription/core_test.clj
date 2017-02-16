@@ -9,5 +9,11 @@
       (is (= (translate "C") "G"))
       (is (= (translate "T") "A"))
       (is (= (translate "A") "U"))
+      )
+    (testing "one element invalid string"
+      (is (thrown? IllegalArgumentException (translate "S")))
+      )
+    (testing "multiple nucleotide string"
+      (is (= (translate "GCTA") "CGAU"))
       )))
 
