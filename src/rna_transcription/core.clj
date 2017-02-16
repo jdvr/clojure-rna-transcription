@@ -9,12 +9,12 @@
   \A \U
 })
 
-(defn isValid [c]
+(defn isValid? [c]
   (contains? dna-nucleotide-to-rna c))
 
 
 (defn translate-c [c]
-  (if (isValid c)
+  (if (isValid? c)
     (str (dna-nucleotide-to-rna c))
     (throw (IllegalArgumentException. "invalid string nucleotide"))))
 
