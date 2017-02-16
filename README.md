@@ -1,36 +1,22 @@
-# rna-transcription
+# Rna Transcription
 
-FIXME: description
+Write a program that, given a DNA strand, returns its RNA complement (per RNA transcription).
 
-## Installation
+Both DNA and RNA strands are a sequence of nucleotides.
 
-Download from http://example.com/FIXME.
+The four nucleotides found in DNA are adenine (**A**), cytosine (**C**), guanine (**G**) and thymidine (**T**).
 
-## Usage
+The four nucleotides found in RNA are adenine (**A**), cytosine (**C**), guanine (**G**) and uracil (**U**).
 
-FIXME: explanation
+Given a DNA strand, its transcribed RNA strand is formed by replacing each nucleotide with its complement:
 
-    $ java -jar rna-transcription-0.1.0-standalone.jar [args]
+* `G` -> `C`
+* `C` -> `G`
+* `T` -> `A`
+* `A` -> `U`
 
-## Options
 
-FIXME: listing of options this app accepts.
 
-## Examples
+## Source
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Rosalind [view source](http://rosalind.info/problems/rna)
